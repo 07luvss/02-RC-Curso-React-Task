@@ -1,16 +1,14 @@
-
-import { TaskHead } from './TaskHead';
-import './styles/index.css';
-
-
-
+import './styles/features.css';
+import { NavBar } from './components/navbar/NavBar';
+import { Task } from './components/task/Tasks';
 
 const App = () => {
- 
-  
+
   return (
-    <TaskHead />
-  );
-}
+    <> 
+      <NavBar />
+      <Task />
+    </>
+  )}
 
 export default App
